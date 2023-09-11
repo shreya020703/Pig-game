@@ -38,6 +38,6 @@ for _ in range(r): #the game will be played the number of times of the rounds
                 print("Your total score is:",player_scores[i])
 
 max_score = max(player_scores) #among the players the max score score is stored in max_score variable
-winning_idx = player_scores.index(max_score) # the built-in index function is going to extract
+winner = player_scores.index(max_score) # the built-in index function is going to extract
                             # the index postion of the max score and hence return the player number
 print("Player number", winning_idx + 1, "is the winner with a score of:", max_score)
